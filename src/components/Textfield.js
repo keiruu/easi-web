@@ -63,7 +63,7 @@ export default function Textfield() {
       };
 
     return (
-        <div className='flex w-full my-20'>
+        <div className='flex w-full my-16'>
             <form className='relative w-full flex gap-8 lg:flex-row flex-col' onSubmit={handleSubmit}>
                 <p className={`absolute left-0 top-[52vh] lg:left-0 lg:bottom-0 p-5 ${disable ? 'text-[#CD444C]' : 'text-light'}`}>{counter}/300</p>
                 
@@ -76,7 +76,7 @@ export default function Textfield() {
                 /> */}
                 <button type='submit' 
                     className={`${disable ? 'bg-light border-light cursor-not-allowed' : 'bg-accent border-accent cursor-pointer hover:text-accent hover:bg-transparent'} 
-                    transition-all w-[100px] text-sm top-[52vh] lg:bottom-[13px] right-2 lg:left-[23.5vw] xl:left-[25.6vw] rounded-[10px] absolute border-2 px-5 py-3 text-white
+                    transition-all w-[100px] text-sm top-[52vh] lg:bottom-[13px] right-2 lg:left-[22.5vw] xl:left-[25vw] 2xl:left-[26.5vw] rounded-[10px] absolute border-2 text-white
                     ${loading ? 'cursor-not-allowed' : 'cursor-pointer'}
                     `}
                 >

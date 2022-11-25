@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className='flex items-center justify-center w-full mt-8'>
       <div className='flex items-center justify-between w-full'>
-        <Link href="/"><Image src={logo} alt="logo" width={85}/></Link>
+        <Link href="/"><Image src={logo} alt="logo" width={90}/></Link>
         <div>
           <ul className='flex items-center gap-6 lg:gap-10 lg:text-md text-sm'>
             <li className='hover:text-accent transition-all'>
