@@ -14,3 +14,6 @@ Cressida Jane Espino
 Zenrick Parcon
 Abigail Kaye Unating
 ```
+
+The mobile application is yet to be released to the public, however it is available upon request. 
+Contact [abigailkaye.unating@wvsu.edu.ph](mailto:abigailkaye.unating@wvsu.edu.ph) for the apk.
